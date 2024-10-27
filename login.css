@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kalnia', serif;
+    font-family: 'Nova Square', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+}
+.html,body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(38, 38, 38);
+    background-image: url('path/to/your-image.jpg'); /* ใส่ path ของรูปภาพที่นี่ */
+    background-size: cover; /* ปรับขนาดรูปให้พอดีกับหน้าจอ */
+    background-position: center; 
+}
+.wrapper{
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0);
+    backdrop-filter: blur(100px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    transition: 0.5s;
+}
+.wrapper:hover{
+    transform: scale(0.97);
+}
+.wrapper h1{
+    font-size: 36;
+    text-align: center;
+}
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder{
+    color: #fff;
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.btn {
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    transition: background-color 0.3s ease; /* Added transition for smooth color change */
+}
+
+.btn:hover {
+    background-color: #044462; /* Change the color to your desired hover color */
+    color: #fff; /* Change the text color on hover if needed */
+}
+.wrapper .register-link{
+    text-align: center;
+    margin-top: 20px;
+}
+.register-link p{
+    color: rgb(255, 67, 85);
+}
+
+.register-link p a:hover{
+    text-decoration: underline;
+}
+
+.register-link p{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.textt{
+    color: red;
+    margin: 20px 0px -20px 10px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
